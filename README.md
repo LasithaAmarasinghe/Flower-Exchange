@@ -10,6 +10,13 @@ The Flower Exchange project is a simple trading system that enables traders to s
 - **Execution Report**: Contains status and details of the execution (e.g., fill, reject, partially filled).
 - **Order Validation**: Ensures that orders are valid, rejecting orders with invalid data.
 
+## C++ Concepts Used
+- **Classes and Objects**: Used for representing different entities like orders, traders, and the exchange system.
+- **Encapsulation**: Ensures that the internal details of each component (such as order processing and execution reports) are hidden from the outside.
+- **Inheritance**: Can be used to extend base functionality for different types of orders or flowers.
+- **Polymorphism**: Allows for flexible order matching and report generation, depending on the type of order (buy/sell).
+- **File Handling**: Reading from and writing to CSV files for order input and execution reports.
+
 ## High-Level Architecture
 ![High-Level Architecture](https://github.com/user-attachments/assets/4a0d7264-c9f5-4a97-b0ce-db07971f113a)
 
